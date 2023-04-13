@@ -1,0 +1,34 @@
+<!-- TUGAS - CUYUNIVERSITY HOMEWORK SESI 5:
+1. TAMBAHKAN ROLE BARU SEBANYAK YG KALIAN MAU (done)
+2. TAMPILKAN SESUATU HAL YG BERBEDA DI SETIAP DASHBOARD ROLE NYA (done)
+3. BIKIN REGISTER / MENU PENDAFTARAN. JADI HANYA BISA USER TERDAFTAR YANG ADA DI STORAGE YANG BISA LOGIN -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SESI 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Ini Konten Kita -->
+    <div id="root">
+      <input type="text" placeholder="username" id="usernameInput" />
+      <input type="password" placeholder="password" id="passwordInput" />
+      <button onclick="onLogin()" id="loginButton">Login</button>
+      <br />
+      <h1 id="admin">LOGIN SEBAGAI ADMIN</h1>
+      <h1 id="user">LOGIN SEBAGAI USER</h1>
+      <h1 id="dev">LOGIN SEBAGAI DEVELOPER</h1>
+      <h1 id="des">LOGIN SEBAGAI DESIGNER</h1>
+      <p id="belum">Belum punya akun ? <a href="register.html">Register</a></p>
+      <div class="logoutButton">
+        <button onclick="onLogout()" id="logoutButton">Logout</button>
+      </div>
+    </div>
+
+    <script type="application/javascript" src="data.js"></script>
+  </body>
+</html>

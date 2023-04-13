@@ -1,0 +1,37 @@
+<!-- 💥 TUGAS CODING SESI 6 UNTUK KALIAN 💥
+1. TULISAN MODE DITAMBAHKAN JADI MODE-DARK / MODE-LIGHT
+2. TAMBAHKAN MENU NAV MODE LAIN (MODE-BERANI, MODE-JOMBLO, MODE-) -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SESI 6</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a onclick="reRender()" id="home">HOME</a>
+        <a onclick="darkMode()" id="dark">DARK MODE</a>
+        <a onclick="jombloMode()" id="jomblo">JOMBLO MODE</a>
+        <a onclick="pdipMode()" id="pdip">PDIP MODE</a>
+      </nav>
+      <h1 id="cuy">Cuy</h1>
+      <p id="info" class="info"></p>
+      <p id="romantis" class="romantis"></p>
+      <div class="buttonJomblo" id="buttonJomblo">
+        <button onclick="introCowok()" id="button1">COWOK</button>
+        <button onclick="introCewek()" id="button2">CEWEK</button>
+      </div>
+      <div class="lol" id="lol"></div>
+      <img src="pdi.gif" alt="" id="imgPdip1" class="imgPdip1" />
+      <img src="pdi.gif" alt="" id="imgPdip2" class="imgPdip2" />
+      <img src="pdi.gif" alt="" id="imgPdip3" class="imgPdip3" />
+    </div>
+    <!-- INI JS -->
+    <script src="data.js"></script>
+  </body>
+</html>
